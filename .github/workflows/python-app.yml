@@ -31,6 +31,7 @@ jobs:
     - name: List files
       run: |
           ls -R
+          pwd
     - name: Commit report
       run: |
           git config --global user.name 'Your Name'
