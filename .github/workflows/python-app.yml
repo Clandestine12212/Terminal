@@ -27,3 +27,7 @@ jobs:
     - name: Testing Pickle File
       run: |
         python Runner.py
+        
+    - name: List files
+      run: |
+          ls -R
