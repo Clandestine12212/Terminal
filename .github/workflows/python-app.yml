@@ -32,6 +32,7 @@ jobs:
       run: |
           ls -R
           pwd
+          git status
     - name: Commit report
       run: |
           git config --global user.name 'Your Name'
